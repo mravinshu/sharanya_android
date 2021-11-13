@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Microsoft Teams"
+        android:textSize="30dp"
+        android:textColor="#7A49BF"
+        android:fontFamily="sans-serif-light"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:minHeight="220dp"
+        android:minWidth="220dp"
+        android:src="@mipmap/teams_round"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get started with your work, school or\npersonal Microsoft account"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/edittextcorner"
+        android:hint="Enter email, phone, or Skype"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/button"
+        android:text="Sign in" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get help signing in"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#7A49BF"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Join a meeting"
+        style="@style/Button"/>
+    <ImageButton
+        android:src="@mipmap/microsoft_small"
+        android:maxHeight="40dp"
+        android:minWidth="40dp"
+        app:icon="@mipmap/microsoft_small"
+        android:minHeight="40dp"
+        android:backgroundTint="@color/white"
+        android:maxWidth="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textAlignment="center"
+        android:text="Sign up for free" />
+
+</LinearLayout>
